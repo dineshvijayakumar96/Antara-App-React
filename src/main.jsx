@@ -1,10 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-
-import jQuery from 'jquery'
-window.$ = jQuery
-window.jQuery = jQuery
+import './assets/js/jquery.slim.min.js'
 
 // CSS imports from npm packages
 import 'bootstrap/dist/css/bootstrap.min.css'
