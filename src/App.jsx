@@ -1,4 +1,3 @@
-// GSAP properly imported
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import splitType from "split-type";
