@@ -6,7 +6,7 @@ import splitType from "split-type";
 import "./App.css";
 import HomePage from "./components/home-page/HomePage";
 import Header from "./components/Header";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Footer from "./components/Footer";
 import AboutPage from "./components/about-page/AboutPage";
 
@@ -25,7 +25,6 @@ import ContatcUs from "./components/contact-us/ContatcUs";
 import NotFound from "./components/404-page/NotFound";
 import WhatsApp from "./components/floating-icon/WhatsApp";
 import AdminApp from "./AdminApp";
-import $ from 'jquery'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -34,9 +33,6 @@ function App() {
   const location = useLocation();
 
   const isAdminRoute = location.pathname.startsWith("/antara-admin");
-
-  window.$ = $
-  window.jQuery = $
 
   useEffect(() => {
     const createScrollAnimation = (sectionSelector) => {

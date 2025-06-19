@@ -1,6 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import $ from 'jquery'
+
+window.$ = $
+window.jQuery = $
 
 // CSS imports from npm packages
 import 'bootstrap/dist/css/bootstrap.min.css'
