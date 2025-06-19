@@ -25,6 +25,7 @@ import ContatcUs from "./components/contact-us/ContatcUs";
 import NotFound from "./components/404-page/NotFound";
 import WhatsApp from "./components/floating-icon/WhatsApp";
 import AdminApp from "./AdminApp";
+import $ from 'jquery'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -33,6 +34,9 @@ function App() {
   const location = useLocation();
 
   const isAdminRoute = location.pathname.startsWith("/antara-admin");
+
+  window.$ = $
+  window.jQuery = $
 
   useEffect(() => {
     const createScrollAnimation = (sectionSelector) => {
