@@ -2,13 +2,16 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 
+import jQuery from 'jquery'
+window.$ = jQuery
+window.jQuery = jQuery
+
 // CSS imports from npm packages
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'owl.carousel/dist/assets/owl.carousel.css'
 import 'owl.carousel/dist/assets/owl.theme.default.css'
 
 // JS packages
-import './assets/js/jquery.slim.min.js'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 // App
