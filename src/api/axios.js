@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_API_URL = "https://antara-application-latest.onrender.com/api";
+const BASE_API_URL = import.meta.env.VITE_API_URL;
 
 const API = axios.create({
     baseURL: BASE_API_URL,
