@@ -1,12 +1,46 @@
-# React + Vite
+# 🌿 Antara – Your Naturopath from India
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Antara**, a modern React application built to support customized natural wellness care. From smooth UI to full admin control, Antara demonstrates clean frontend engineering, RESTful integration, and production-grade practices.
 
-Currently, two official plugins are available:
+![Antara Banner](https://raw.githubusercontent.com/dineshvijayakumar96/Antara-App-React/main/public/og.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Links
 
-## Expanding the ESLint configuration
+- 🌐 **Main App:** [antara-app-react.vercel.app](https://antara-app-react.vercel.app)
+- 🛠️ **Admin Dashboard:** [antara-app-react.vercel.app/antara-admin/login](https://antara-app-react.vercel.app/antara-admin/login)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+### 👥 Main User-Facing App
+- 🎯 Client-side routing with React Router
+- 🎠 Owl Carousel integration for featured services
+- 💅 Responsive design with Bootstrap and custom CSS
+- 🔄 Connected to Spring Boot REST APIs
+- 🌐 Deployed on Vercel
+
+### 🔐 Admin Dashboard
+Built using **React Admin** and **Material UI**, this powerful interface supports:
+
+- 📬 **Contact Form Management** (CRUD)
+- 👤 **Role-Based User Login**  
+  - Admins see and manage all data  
+  - Users have restricted, scoped access
+- 🔄 **Token-Based API Authentication**
+- 🎨 Fully responsive layout with Material UI
+- 🚀 Modular data providers for easy backend plug-and-play
+
+---
+
+## 🛠️ Tech Stack
+
+| Frontend           | Admin Dashboard       | Backend (API)        |
+|--------------------|------------------------|-----------------------|
+| React + Vite       | React Admin + MUI      | Spring Boot (Render) |
+| React Router DOM   | Role-Based Auth System | REST API             |
+| Bootstrap, jQuery  | Axios + JSON Server    | JWT                  |
+| Owl Carousel       | Material Icons         | PostgreSQL (Neon)    |
+| Vercel Deployment  | Secure Routes          | CORS config          |
+
+---
