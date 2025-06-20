@@ -10,14 +10,15 @@ function HomePage() {
 
     const options = {
         center: true,
-        margin:0,
+        margin:150,
         touchDrag:true,
         loop:true,
         autoplaySpeed: 1000,
-        autoplay:true,
+        autoplay:false,
         autoplayTimeout:2500,
         autoplayHoverPause:false,
-        items: 1
+        items: 1,
+        autoWidth: true
     }
 
   return (

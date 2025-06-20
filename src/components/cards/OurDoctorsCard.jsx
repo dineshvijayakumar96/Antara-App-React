@@ -7,8 +7,7 @@ function OurDoctorsCard({ Image, Name, Position, Description }) {
   const noDescription = location.pathname === "/about-us";
 
   return (
-    <div>
-      <div className="card card-shadow mb-3 card-doctor">
+    <div className="card card-shadow mb-3 card-doctor">
         <div className="card-service-img-h">
           <div className={`card-service-img ${ Image }`}></div>
         </div>
@@ -17,7 +16,6 @@ function OurDoctorsCard({ Image, Name, Position, Description }) {
           <p className="home-sec4-para text-dark text-center">{Position}</p>
           { !noDescription ? <><p className="home-sec4-para text-dark text-center">{Description}</p></> : <></> }
         </div>
-      </div>
     </div>
   );
 }

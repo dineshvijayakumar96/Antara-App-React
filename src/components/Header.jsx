@@ -48,6 +48,10 @@ function NavBar() {
     setIsNavOpen(!isNavOpen);
   };
 
+  const handleNavClick = () => {
+    setIsNavOpen(false);
+  };
+
   return (
     <div>
       <nav style={ { overflow: navBarOverflow } } className="navbar position-absolute w-100 navbar-expand-lg navbar-light bg-transparent align-items-center edu-nav z-index-2 p-0">
@@ -55,6 +59,7 @@ function NavBar() {
           <NavLink
             to={"/"}
             className="navbar-brand me-lg-0 me-auto mb-0 mb-lg-2"
+            onClick={handleNavClick}
           >
             <img
               title="Antara"
@@ -88,6 +93,7 @@ function NavBar() {
                     to={"/about-us"}
                   className="nav-link edu-nav-link edu-nav-link-b"
                   type="button"
+                  onClick={handleNavClick}
                 >
                   About Us
                 </NavLink>
@@ -107,6 +113,7 @@ function NavBar() {
                         to={"/our-specialities/yoga-consultations"}
                       className="dropdown-item p-0 edu-nav-drop-link"
                       type="button"
+                      onClick={handleNavClick}
                     >
                       Yoga Consultation
                     </NavLink>
@@ -116,6 +123,7 @@ function NavBar() {
                         to={"/our-specialities/naturopathic-consultations"}
                       className="dropdown-item p-0 edu-nav-drop-link"
                       type="button"
+                      onClick={handleNavClick}
                     >
                       Naturopathic Consultation
                     </NavLink>
@@ -125,6 +133,7 @@ function NavBar() {
                         to={"/our-specialities/nutrition-and-diet-consultations"}
                       className="dropdown-item p-0 edu-nav-drop-link"
                       type="button"
+                      onClick={handleNavClick}
                     >
                       Nutrition and Diet Consultation
                     </NavLink>
@@ -146,6 +155,7 @@ function NavBar() {
                       to={"/our-specialised-cares/mens-health"}
                       className="dropdown-item p-0 edu-nav-drop-link"
                       type="button"
+                      onClick={handleNavClick}
                     >
                       Men’s Health
                     </NavLink>
@@ -155,6 +165,7 @@ function NavBar() {
                       to={"/our-specialised-cares/womens-wellness"}
                       className="dropdown-item p-0 edu-nav-drop-link"
                       type="button"
+                      onClick={handleNavClick}
                     >
                       Women Wellness
                     </NavLink>
@@ -164,6 +175,7 @@ function NavBar() {
                       to={"/our-specialised-cares/weight-management-and-obesity"}
                       className="dropdown-item p-0 edu-nav-drop-link"
                       type="button"
+                      onClick={handleNavClick}
                     >
                       Weight Management and Obesity
                     </NavLink>
@@ -173,6 +185,7 @@ function NavBar() {
                       to={"/our-specialised-cares/senior-care"}
                       className="dropdown-item p-0 edu-nav-drop-link"
                       type="button"
+                      onClick={handleNavClick}
                     >
                       Senior Care
                     </NavLink>
@@ -182,6 +195,7 @@ function NavBar() {
                       to={"/our-specialised-cares/detoxification-programs"}
                       className="dropdown-item p-0 edu-nav-drop-link"
                       type="button"
+                      onClick={handleNavClick}
                     >
                       Detoxification Programs
                     </NavLink>
@@ -193,6 +207,7 @@ function NavBar() {
                   className="nav-link edu-nav-link edu-nav-link-b"
                   to={"/yoga-club"}
                   type="button"
+                  onClick={handleNavClick}
                 >
                   Yoga Club
                 </NavLink>
@@ -202,6 +217,7 @@ function NavBar() {
                   className="nav-link edu-nav-link edu-nav-link-b"
                   to={"https://antaracares1.zohobookings.in/#/book-appointment"}
                   type="button"
+                  onClick={handleNavClick}
                 >
                   Online Consult
                 </NavLink>
@@ -211,6 +227,7 @@ function NavBar() {
                   className="nav-link edu-nav-link edu-nav-link-b"
                   to={"/antara-escapes"}
                   type="button"
+                  onClick={handleNavClick}
                 >
                   Escapes
                 </NavLink>
@@ -220,6 +237,7 @@ function NavBar() {
                   className="nav-link edu-nav-link edu-nav-link-b"
                   to={"/contact-us"}
                   type="button"
+                  onClick={handleNavClick}
                 >
                   Contact Us
                 </NavLink>

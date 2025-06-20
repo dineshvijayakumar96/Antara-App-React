@@ -340,10 +340,15 @@ a,
   width: 30px;
 }
 
-.item {
+.owl-item .item {
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.item .card {
+  width: 100%;
 }
 
 #owl-carousel-4 .rates-icon {
