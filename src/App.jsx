@@ -7,6 +7,7 @@ import HomePage from "./components/home-page/HomePage";
 import Header from "./components/Header";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 import AboutPage from "./components/about-page/AboutPage";
 
 import { useEffect } from "react";
@@ -191,6 +192,7 @@ function App() {
 
   return (
     <>
+      <ScrollToTop />
       { !isAdminRoute && <Header /> }
       { !isAdminRoute && <WhatsApp/> }
         <Routes>

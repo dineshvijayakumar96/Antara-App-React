@@ -21,26 +21,26 @@ function Consultations() {
                 <div className="d-mobile no-d-desktop">
                 <div id="owl-carousel-5" className="carousel-single owl-carousel owl-drag owl-theme h-100 p-3">
                     <div className="item">
-                        <ServicesCard BgSandal={true} isDesktop={false} Image={"card-service-img-1"} Link={"/naturopathy-consultations"} Title={"Naturopathy Consultations"} Description={"Personalized holistic consultation combining yoga, diet, and naturopathic therapies tailored to individual medical background."}/>
+                        <ServicesCard BgSandal={true} isDesktop={false} Image={"card-service-img-1"} Link={"/our-specialities/naturopathic-consultations"} Title={"Naturopathy Consultations"} Description={"Personalized holistic consultation combining yoga, diet, and naturopathic therapies tailored to individual medical background."}/>
                     </div>
                     <div className="item">
-                        <ServicesCard BgSandal={true} isDesktop={false} Image={"card-service-img-2"} Link={"/diet-consultations"} Title={"Diet Consultations"} Description={"Expert-led discussions focusing on suitable foods, portion control, and recipe guidance, customized to each person's medical history and preferences."}/>
+                        <ServicesCard BgSandal={true} isDesktop={false} Image={"card-service-img-2"} Link={"/our-specialities/diet-consultations"} Title={"Diet Consultations"} Description={"Expert-led discussions focusing on suitable foods, portion control, and recipe guidance, customized to each person's medical history and preferences."}/>
                     </div>
                     <div className="item">
-                        <ServicesCard BgSandal={true} isDesktop={false} Image={"card-service-img-8"} Link={"/yoga-consultations"} Title={"Yoga Consultations"} Description={"Tailored Consultation for 30 minutes encompassing asanas, pranayamas, and meditative techniques, curated to individual medical backgrounds."}/>
+                        <ServicesCard BgSandal={true} isDesktop={false} Image={"card-service-img-8"} Link={"/our-specialities/yoga-consultations"} Title={"Yoga Consultations"} Description={"Tailored Consultation for 30 minutes encompassing asanas, pranayamas, and meditative techniques, curated to individual medical backgrounds."}/>
                     </div>
                 </div>
                 </div>
                 <div className="d-desktop no-d-mobile">
                 <div className="row g-5">
                     <div className="col-lg-4">
-                        <ServicesCard isDesktop={true} Image={"card-service-img-1"} Link={"/naturopathy-consultations"} Title={"Naturopathy Consultations"} Description={"Personalized holistic consultation combining yoga, diet, and naturopathic therapies tailored to individual medical background."}/>
+                        <ServicesCard isDesktop={true} Image={"card-service-img-1"} Link={"/our-specialities/naturopathic-consultations"} Title={"Naturopathy Consultations"} Description={"Personalized holistic consultation combining yoga, diet, and naturopathic therapies tailored to individual medical background."}/>
                     </div>
                     <div className="col-lg-4">
-                        <ServicesCard isDesktop={true} Image={"card-service-img-2"} Link={"/diet-consultations"} Title={"Diet Consultations"} Description={"Expert-led discussions focusing on suitable foods, portion control, and recipe guidance, customized to each person's medical history and preferences."}/>
+                        <ServicesCard isDesktop={true} Image={"card-service-img-2"} Link={"/our-specialities/diet-consultations"} Title={"Diet Consultations"} Description={"Expert-led discussions focusing on suitable foods, portion control, and recipe guidance, customized to each person's medical history and preferences."}/>
                     </div>
                     <div className="col-lg-4">
-                        <ServicesCard isDesktop={true} Image={"card-service-img-8"} Link={"/yoga-consultations"} Title={"Yoga Consultations"} Description={"Tailored Consultation for 30 minutes encompassing asanas, pranayamas, and meditative techniques, curated to individual medical backgrounds."}/>
+                        <ServicesCard isDesktop={true} Image={"card-service-img-8"} Link={"/our-specialities/yoga-consultations"} Title={"Yoga Consultations"} Description={"Tailored Consultation for 30 minutes encompassing asanas, pranayamas, and meditative techniques, curated to individual medical backgrounds."}/>
                     </div>
                 </div>
                 </div>
